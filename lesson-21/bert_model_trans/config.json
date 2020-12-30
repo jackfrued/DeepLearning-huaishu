@@ -1,0 +1,43 @@
+{
+  "attention_probs_dropout_prob": 0.1, 
+  "directionality": "bidi", 
+  "hidden_act": "gelu", 
+  "hidden_dropout_prob": 0.1, 
+  "hidden_size": 768, 
+  "initializer_range": 0.02, 
+  "intermediate_size": 3072, 
+  "max_position_embeddings": 512, 
+  "num_attention_heads": 12, 
+  "num_hidden_layers": 12, 
+  "pooler_fc_size": 768, 
+  "pooler_num_attention_heads": 12, 
+  "pooler_num_fc_layers": 3, 
+  "pooler_size_per_head": 128, 
+  "pooler_type": "first_token_transform", 
+  "type_vocab_size": 2, 
+  "vocab_size": 119547,
+  "word_feat_size": 1756,
+  "num_labels_cate": 9,
+  "id2label": {
+	  "0": "App rating>No content",
+	  "1": "App rating>Satisfied",
+	  "2": "App rating>Dissatisfied",
+	  "3": "Running app>App crash/launch error",
+	  "4": "Running app>App installation/update",
+	  "5": "Chats",
+	  "6": "Account",
+	  "7": "Notification",
+	  "8": "Tail1>Tail2"
+  },
+  "label2id": {
+	  "App rating>No content": 0,
+	  "App rating>Satisfied": 1,
+	  "App rating>Dissatisfied": 2,
+	  "Running app>App crash/launch error": 3,
+	  "Running app>App installation/update": 4,
+	  "Chats": 5,
+	  "Account": 6,
+	  "Notification": 7,
+	  "Tail1>Tail2": 8
+  }
+}
